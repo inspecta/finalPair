@@ -3,48 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <title>Fork Me! FCC: Test Suite Template</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!-- <h4>Hello World!</h4> -->
-    <header id="header">
-      <img src="" id="header-img" />
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#header">Features</a></li>
-          <li><a class="nav-link" href="#video">How It Works</a></li>
-          <li><a class="nav-link" href="#form">Pricing</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+      <header id="header">
+        <img src="./images/logo.png" id="header-img" />
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#header">Features</a></li>
+            <li><a class="nav-link" href="#video">How It Works</a></li>
+            <li><a class="nav-link" href="#form">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Enter your email!"
-      />
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email!"
+        />
 
-      <input type="submit" id="submit" />
-    </form>
+        <input type="submit" id="submit" />
+      </form>
+      <br />
+      <div class="row">
+        <video id="video" width="200" height="250" controls>
+          <source src="https://youtu.be/y8Yv4pnO7qc" type="video/mp4" />
+        </video>
+      </div>
 
-    <iframe
-      id="video"
-      src="https://youtu.be/y8Yv4pnO7qc"
-      frameborder="0"
-    ></iframe>
+      <div class="flex-container"></div>
 
-    <video id="video" width="250" height="250" controls>
-      <source src="https://youtu.be/y8Yv4pnO7qc" type="video/mp4" />
-    </video>
+      <h4>Hello World, we are software developers</h4>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <div class="flex-container"></div>
-
-    <h4>Hello World, we are software developers</h4>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <script src="js/index.js"></script>
+      <script src="js/index.js"></script>
+    </div>
   </body>
 </html>
