@@ -3,3 +3,7 @@
     font-size: medium;
   }
 }
+#flex-container{
+  display: flexbox;
+  
+}
