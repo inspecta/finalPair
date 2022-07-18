@@ -3,7 +3,12 @@
     font-size: medium;
   }
 }
-#flex-container{
+
+.flex-container {
   display: flexbox;
-  
+}
+
+#nav-bar a {
+  display: flex;
+  padding: 10px;
 }

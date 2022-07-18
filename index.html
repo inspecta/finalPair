@@ -7,48 +7,44 @@
   </head>
 
   <body>
-    <h4>Hello World!</h4>
+    <!-- <h4>Hello World!</h4> -->
     <header id="header">
       <img src="" id="header-img" />
       <nav id="nav-bar">
-        <div class="flex-container ">
-          <ul>
-            <li class="nav-link"><a href="">Features</a></li>
-            <li class="nav-link"><a href="">How It Works</a></li>
-            <li class="nav-link"><a href="">Pricing</a></li>
-          </ul>
-        </div>
+        <ul>
+          <li><a class="nav-link" href="#header">Features</a></li>
+          <li><a class="nav-link" href="#video">How It Works</a></li>
+          <li><a class="nav-link" href="#form">Pricing</a></li>
+        </ul>
       </nav>
     </header>
 
-    <form action="" id="form">
-      <input type="email" id="email" placeholder="Insert Email Here!" />
-
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
       <input
-        type="submit"
-        name="submit"
-        id="submit"
-        onclick="https://www.freecodecamp.com/email-submit"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email!"
       />
+
+      <input type="submit" id="submit" />
     </form>
 
-    <iframe src="https://youtu.be/y8Yv4pnO7qc" frameborder="0"></iframe>
+    <iframe
+      id="video"
+      src="https://youtu.be/y8Yv4pnO7qc"
+      frameborder="0"
+    ></iframe>
+
+    <video id="video" width="250" height="250" controls>
+      <source src="https://youtu.be/y8Yv4pnO7qc" type="video/mp4" />
+    </video>
+
+    <div class="flex-container"></div>
 
     <h4>Hello World, we are software developers</h4>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script src="js/index.js"></script>
   </body>
 </html>
